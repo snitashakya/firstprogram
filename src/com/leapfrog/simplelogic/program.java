@@ -100,6 +100,12 @@ public class program {
               System.out.println("Grade:\t\t\t"+grade);
               System.out.println("Grade Description:"+gradedesc);
               System.out.println("Grade Point:\t"+gradepoint);
+              System.out.println("\t" +gradedesc.contains("a"));//check for letter and gives result in boolean
+              System.out.println("\t" +gradedesc.charAt(5));
+              System.out.println("\t" +gradedesc.concat("12"));
+              System.out.println(gradedesc.replaceAll("e", "1"));
+              System.out.println(gradedesc.intern());
+              System.out.println(gradedesc.matches("Very Good"));
        }
               
        
